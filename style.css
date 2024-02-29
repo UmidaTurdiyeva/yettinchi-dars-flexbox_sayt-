@@ -1,0 +1,158 @@
+
+
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.578);
+    
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    height: fit-content;
+    background-color: white;
+    padding: 10px 100px;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    border: 5px solid greenyellow;
+}
+.navbar{
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 15px auto;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color:black ;
+}
+.F{
+    background-color: greenyellow;
+    padding: 3px 8px;
+    color: white;
+    border-radius: 5px;
+}
+.contact{
+    background-color: greenyellow;
+    box-shadow: 1px 1px 10px greenyellow;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 45px;
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+}
+.fa-phone{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fa-play{
+    background: transparent;
+    padding: 14px 15px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    box-shadow: 0px 5px 5px greenyellow;
+    /* box-shadow: 1px 5px 50px rgb(211, 210, 210); */
+    font-size: 24px;
+    margin: 1px 10px;
+    border-bottom: greenyellow;
+    color: green;
+}
+header{
+    display: flex;
+    /* height: fit-content; */
+}
+.text{
+    width: 40%;
+    /* border: 1px solid red; */
+    padding: 50px 10px;
+    /* yozuvlarni o'rtaga yig'ish uchun */
+    display: flex;
+    flex-wrap: wrap; /* har bir obyektni qator shaklda ushlab turibdi olib tashlansa hammasi qator buylab cho'zilib ketyapti*/
+    align-content: center;
+    /* / yozuv yig'ildi */
+}
+.afisha_img{
+    border-radius: 50%;
+    width: 100%;
+    /* height: 400px; */
+}
+.food_photo_img{
+    width: 40%;
+}
+.food_photo_text{
+    width: 60%;
+}
+.food_photo_img img{
+    width: 60px;
+    border-radius: 15px;
+}
+.food_photo{
+    width: 200px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 10px 20px;
+    background-color: white;
+    
+}
+.fa-star{
+    color: rgba(255, 251, 0, 0.977);
+}
+.veg{
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    
+}
+.nood{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    transition: color 1s linear 0.5;
+}
+.nood .fa-star:hover{
+    color: red;
+    transform: scale(1.5);
+}
+.veg .fa-star:hover{
+    color: red;
+    transform: scale(1.5);
+}
+
+
+.title{
+    background-color: white;
+    padding: 5px 20px;
+    box-shadow: 5px 5px 10px orange;
+    text-align: center;
+    /* box-shadow: 5px 5px 10px rgb(183, 182, 182); */
+    color: red;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    border-bottom-left-radius: 15px;
+    border-bottom: 2px solid red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.title img{
+    width: 20px;
+}
+
+
+.foto{
+    width: 60%;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
