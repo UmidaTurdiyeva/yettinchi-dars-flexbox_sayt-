@@ -156,3 +156,48 @@ header{
     position: relative;
 }
 
+.cont2{
+    text-align: center;
+}
+.row{
+    display: flex;
+
+}
+.item{
+    box-sizing: border-box;
+    width: 25%;
+    height: 350px;
+    border-radius: 50px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid greenyellow;
+    border-left: 2px solid greenyellow;
+}
+.item img{
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border-bottom: 2px solid greenyellow;
+    border-right: 4px solid white;
+    /* background-color: greenyellow; */
+}
+.item .fon{
+    position: relative;
+    top: -50px;
+    left: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    background-color: greenyellow;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+
+}
+.favorit{
+    width: 50px;
+    height: 50px;
+}
