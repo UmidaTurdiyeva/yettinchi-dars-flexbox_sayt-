@@ -3,6 +3,7 @@
 body{
     margin: 0;
     background-color: rgba(0, 0, 0, 0.578);
+    min-width: 500px;
     
 }
 
@@ -15,14 +16,20 @@ body{
     padding: 50px 100px;
     box-sizing: border-box;
     font-family: sans-serif;
-    border: 5px solid greenyellow;
 }
 .navbar{
-    width: 100%;
+    padding: 2px 100px;
+    width: 80%;
+    margin: auto;
+    /* border-bottom: 1px solid greenyellow; */
+    background-color: white;
+    box-sizing: border-box;
+    height: 100px;
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     /* margin: 1px auto; */
@@ -66,14 +73,18 @@ nav a{
     border-bottom: greenyellow;
     color: green;
 }
+.nav_item{
+    display: flex;
+    flex-wrap: wrap;
+}
 header{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* height: fit-content; */
 }
 .text{
-    /* flex-grow: 1; */
-    width: 40%;
+    flex-grow: 1;
+    width: 200px;
     /* border: 1px solid red; */
     padding: 50px 10px;
     /* yozuvlarni o'rtaga yig'ish uchun */
@@ -85,10 +96,12 @@ header{
 }
 .foto{
     box-sizing: border-box;
-    /* flex-grow: 1; */
-    width: 60%;
+    flex-grow: 1;
+    width: 300px;
     /* border: 1px solid blue; */
     position: relative;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 .afisha_img{
     border-radius: 50%;
@@ -124,7 +137,6 @@ header{
     position: absolute;
     bottom: 0px;
     left: 300px;
-    
 }
 .nood{
     position: absolute;
@@ -162,7 +174,7 @@ header{
 }
 
 
-
+/* 2-sahifa */
 
 .cont2{
     text-align: center;
@@ -203,8 +215,8 @@ header{
     height: 150px; /*40% bergandim foizda*/
     border-radius: 30%;
     background-color: greenyellow;
-    border-right: 2px solid green;
-    border-bottom: 2px solid green;
+    /* border-right: 2px solid green; */
+    /* border-bottom: 2px solid green; */
 }
 .favorit{
     width: 50px;
@@ -369,6 +381,7 @@ header{
     display: flex;
     position: relative;
     width: 50%;
+    flex-grow: 1;
     /* border: 2px solid; */
 }
 .imgs img{
@@ -391,6 +404,7 @@ header{
 }
 .bir{
     padding-left:25px;
+    flex-grow: 1;
     /* border: 1px solid; */
 }
 /* 5-sahifa */
@@ -433,4 +447,83 @@ header{
 }
 .container h1{
     font-family: High Tower Text;
+}
+
+/* 6-sahifa */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+.columns{
+    /* border: 1px solid red; */
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+.columns h3{
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+footer ul li{
+    margin:20px auto;
+}
+footer ul li a:hover{
+    background-color: rgb(4, 206, 4);
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+.column1{
+    flex-grow: 2;
+}
+.column2{
+    flex-grow: 1;
+}
+.column3{
+    flex-grow: 1;
+}
+.column1{
+    flex-grow: 1;
+}
+.foot{
+    /* border: 1px solid blue; */
+    display: flex; /*iconka bilan corparatr birga turishi uchun*/
+    flex-wrap: wrap;
+}
+.foot ul{
+    list-style-type: none;
+    display: flex; /* iconkalar bir qatorda turishi uchun*/
+    /* border: 1px solid black; */
+    width: 450px;
+    margin: 0;/*standartidagi marginni olib tashlash*/
+    padding: 0; /*standartidagi paddingni olib tashlash*/
+}
+.foot ul li {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    /* border: 1px solid green; */
+    display: flex; /* iconkalar aylanani markazida turishi uchun*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 247, 241);
+}
+.foot span{
+    /* border: 1px solid black; */
+   padding: 15px;
+}
+.foot ul li:hover{
+    background-color: rgb(4, 206, 4);
+    color: white;
 }
